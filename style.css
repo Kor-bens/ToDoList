@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body{
+      display: flex;
+    flex-direction: column;
+    background-color: rgb(64, 149, 219);
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+  
+   background-color: rgb(244, 238, 238);
+    border: 1px solid black;
+    border-radius: 5px;
+   width: 50%;
+   margin: auto;
+   padding: 15px;
+   margin-top: 30vh;
+   box-shadow:  0 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+   text-align: center;
+   font-size: 2em;
+}
+
+.full_input{
+display: flex;
+align-items: center;
+justify-content: space-between;
+    margin-top: 2vh;
+
+}
+
+input{
+    width: 90%;
+    border-radius: 5px;
+    padding: 20px;
+    height: 5vh;
+    font-size: 1.5em;
+}
+
+button{
+    border-radius:5px;
+height: 5vh;
+    width: 10%;
+    font-size: 1.5em;
+    color: white;
+        background-Color: rgb(64, 149, 219);
+
+}
+#addToDo:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.paragraphe_style{
+border: 1px solid rgb(165, 161, 161);
+margin: 10px 0;
+padding: 10px 0;
+border-radius: 5px;
+background-color: rgb(64, 149, 219);
+color: white;
+word-break: break-all;
+animation:anime 0.5s linear;
+font-size: 1.5em;
+width: 90%;
+height: auto;
+}
+
+.paragraph_click{
+    background-color: rgb(233, 78, 6);
+    text-decoration: line-through;
+}
+
+@keyframes anime {
+    from {
+        transform: translateY(50px);
+    }
+}
+
+.buttonValidation{
+    background-color: rgb(64, 149, 219);
+    height: auto;
+border-radius: 5px;
+color: white;
+margin: 10px 0;
+animation:anime 0.5s linear;
+font-size: 1.5em;
+width: 5%;
+}
+
+.buttonRemove{
+    background-color: red;
+    height: auto;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0;
+    animation:anime 0.5s linear;
+    font-size: 1.5em;
+    width: 5%;
+}
+
+.divParagraphButton{
+   display: flex;
+}
+
+
